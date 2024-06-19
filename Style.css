@@ -1,0 +1,41 @@
+/* Estilo para el cuerpo de la página */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+/* Estilo para los mensajes del chat */
+.chat-message {
+  width: 100%;
+}
+
+.chat-message-text {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el botón de voz */
+#voice-button {
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #6c757d;
+  border-radius: 10px 0 0 10px;
+}
+
+#voice-button:hover {
+  color: #212529;
+}
+
+/* Estilo para el input de voz */
+#voice-input {
+  border-radius: 0 10px 10px 0;
+}
